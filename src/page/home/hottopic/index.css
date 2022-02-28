@@ -1,0 +1,31 @@
+.hottopic {
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.hottopic .topic {
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    padding-left: 20px;
+    border-bottom: 1px dashed #e9e9e9
+}
+
+.hottopic .tags {
+    padding: 20px;
+    font-size: 14px;
+    overflow: hidden
+}
+
+.hottopic .tags span {
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #5ca7e5;
+    color: #fafafa;
+    border-radius: 4px;
+    width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block
+}

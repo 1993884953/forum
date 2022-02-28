@@ -1,0 +1,24 @@
+
+.ranklist {
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    font-size: 15px;
+    background-color: #fff;
+    color: #6d6d6d
+}
+
+.ranklist .left div {
+    float: left;
+    margin-right: 25px;
+    cursor: pointer
+}
+
+.ranklist .right div {
+    float: right;
+    padding-right: 25px
+}
+
+.ranklist .active {
+    color: #5aa47c
+}

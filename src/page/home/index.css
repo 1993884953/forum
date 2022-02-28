@@ -1,0 +1,56 @@
+
+.home .content {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.home .content > .left {
+    width: 65%;
+    float: left
+}
+
+.home .content > .left > div {
+    margin-top: 20px
+}
+
+.home .content > .left .back {
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #5aa47c;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.home .content > .left .welcome {
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    padding-left: 20px;
+    color: #6d6d6d;
+    font-size: 15px
+}
+
+.home .content > .left .count {
+    float: left;
+    position: relative;
+    left: 40%;
+    top: 23px
+}
+
+.home .content > .left .alreadyBottom {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    color: #6d6d6d
+}
+
+.home .content > .right {
+    width: calc(35% - 20px);
+    float: right
+}
+
+.home .content > .right > div, .regist .content {
+    margin-top: 20px
+}
+

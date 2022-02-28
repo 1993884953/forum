@@ -1,0 +1,58 @@
+
+.head {
+    height: 70px;
+    line-height: 70px;
+    background-color: #374255;
+    color: #c3c4c7
+}
+
+.head .head2 {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.head .left div {
+    cursor: pointer;
+    height: 70px;
+    float: left
+}
+
+.head .left .itnova {
+    margin-right: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #5fa57c
+}
+
+.head .left .itnova img {
+    padding-top: 10px
+}
+
+.head .left .home {
+    margin-right: 50px
+}
+
+.head .left .home img {
+    padding: 18px 10px 0 0;
+    width: 30px
+}
+
+.head .left .book img {
+    padding: 25px 10px 0 0;
+    width: 30px
+}
+
+.head .right div {
+    height: 70px;
+    float: right;
+    margin-left: 20px
+}
+
+.head .right img {
+    width: 25px;
+    padding-top: 22px
+}
+
+.head .right .out div {
+    cursor: pointer
+}

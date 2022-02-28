@@ -1,0 +1,109 @@
+
+.postreply {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 0 !important
+}
+
+.postreply .reply {
+    margin: 0 0 10px
+}
+
+.postreply .reply .user {
+    padding: 0 15px 15px 0;
+    height: 50px
+}
+
+.postreply .reply .user > div {
+    float: left
+}
+
+.postreply .reply .user .left {
+    height: 50px
+}
+
+.postreply .reply .user .left img {
+    width: 50px;
+    height: 50px
+}
+
+.postreply .reply .user .right {
+    height: 50px;
+    line-height: 28px;
+    padding-left: 15px;
+    font-size: 14px
+}
+
+.postreply .reply .user .right .up .username {
+    color: #5ca7e5;
+    padding-right: 10px
+}
+
+.postreply .reply .user .right .up .lv {
+    font-size: 13px;
+    background-color: #f2f2f2;
+    padding: 3px;
+    margin-right: 15px;
+    border-radius: 4px
+}
+
+.postreply .reply .user .right .down .date, .postreply .reply .user .right .up .status {
+    color: #6d6d6d
+}
+
+.postreply .reply .replyContent {
+    padding-top: 10px;
+    font-size: 15px;
+    word-wrap: break-word
+}
+
+.postreply .reply .likeAndReply {
+    padding-top: 25px;
+    color: #6d6d6d
+}
+
+.postreply .reply .likeAndReply span {
+    padding-right: 30px
+}
+
+.postreply .reply .likeAndReply img {
+    width: 18px;
+    padding: 0 5px 0 0;
+    position: relative;
+    top: 3px;
+    cursor: pointer
+}
+
+.postreply .reply .likeAndReply .bin {
+    height: 18px;
+    width: 23px
+}
+
+.postreply .reply .reply {
+    padding-top: 25px
+}
+
+.postreply .reply .reply textarea {
+    border-color: #c3c4c7;
+    padding: 5px;
+    width: calc(100% - 10px);
+    height: 100px;
+    line-height: 20px;
+    outline: none;
+    font-size: 15px
+}
+
+.postreply .reply .reply .postReply {
+    text-align: right
+}
+
+.postreply .reply .reply .postReply button {
+    cursor: pointer;
+    background-color: #4b9387;
+    color: #fff;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 4px;
+    outline: none
+}

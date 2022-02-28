@@ -1,0 +1,43 @@
+
+.vistors {
+    background-color: #fff;
+    border-radius: 4px
+}
+
+.vistors .recent {
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    padding-left: 20px;
+    border-bottom: 1px dashed #e9e9e9
+}
+
+.vistors .avatars {
+    padding: 20px 0;
+    height: 80px;
+    font-size: 14px
+}
+
+.vistors .avatars > div {
+    text-align: center
+}
+
+.vistors .avatars .mem {
+    width: 60px;
+    height: 80px;
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.vistors .avatars .mem img {
+    width: 40px;
+    height: 40px
+}
+
+.vistors .avatars .mem .memName {
+    overflow: hidden;
+    text-overflow: ellipsis
+}

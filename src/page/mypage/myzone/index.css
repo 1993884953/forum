@@ -1,0 +1,42 @@
+
+.myzone {
+    background-color: #3d3f49;
+    padding: 10px 0 30px;
+    color: #c3c4c7;
+    font-size: 15px;
+    border-radius: 4px;
+    height: 520px;
+    text-align: center
+}
+
+.myzone > div {
+    height: 480px
+}
+
+.myzone > div > div {
+    padding: 10px 0 10px 30px;
+    height: 40px;
+    text-align: left;
+    cursor: pointer
+}
+
+.myzone img {
+    height: 25px;
+    width: 28px;
+    margin-right: 10px;
+    position: relative;
+    top: 6px
+}
+
+.myzone .active, .myzone .quit {
+    background-color: #4b9387;
+    color: #fff
+}
+
+.myzone .quit {
+    cursor: pointer;
+    padding: 10px 20px;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px
+}

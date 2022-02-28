@@ -1,0 +1,410 @@
+
+.mypost {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 15px;
+    overflow: hidden
+}
+
+.mypost .menu1 {
+    font-size: 25px
+}
+
+.mypost .menu2 {
+    padding-top: 30px
+}
+
+.mypost .menu2 .row {
+    width: 60%;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    border-bottom: 1px solid #e9e9e9;
+
+}
+
+.mypost .menu2 .row form {
+    float: left;
+}
+
+.mypost .menu2 .row img {
+    height: 60px
+}
+
+.mypost .menu2 .row .left {
+    float: left;
+    height: 60px;
+    line-height: 60px
+}
+
+.mypost .menu2 .row .right {
+    float: right;
+    height: 60px;
+    line-height: 60px
+}
+
+.mypost .menu2 .row .right .avatar {
+    height: 60px;
+    width: 60px;
+    background-size: cover
+}
+
+.mypost .menu2 .row .input input {
+    outline: none;
+    float: left;
+    box-sizing: border-box;
+    height: 38px;
+    margin-top: 15px;
+
+}
+
+.mypost .menu2 .row .input span {
+    padding: 10px;
+    background-color: #5aa47c;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px
+}
+
+.mypost .menu2 .row2 {
+    height: 120px;
+    line-height: 60px
+}
+
+.mypost .menu2 .row3 {
+    width: 60%;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+}
+
+.mypost .menu2 .row3 form {
+    float: left;
+    width: 100%;
+}
+
+.mypost .menu2 .row3 img {
+    height: 60px
+}
+
+.mypost .menu2 .row3 .left {
+    float: left;
+    height: 60px;
+    line-height: 60px
+}
+
+.mypost .menu2 .row3 .right {
+    float: right;
+    height: 60px;
+    line-height: 60px
+}
+
+.mypost .menu2 .row3 .right .avatar {
+    height: 60px;
+    width: 60px;
+    background-size: cover
+}
+
+.mypost .menu2 .row3 .input input {
+    outline: none;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    height: 36px;
+    margin: 16px 0;
+
+}
+
+.mypost .menu2 .row3 .input span {
+    background-color: #5aa47c;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 70px;
+    text-align: center;
+    line-height: 36px
+}
+
+.mypost .menu2 .row3 .button {
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    height: 36px
+}
+
+.mypost .menu2 .arrow {
+    float: right;
+    position: relative;
+    bottom: 55px;
+    right: 120px;
+    font-size: 20px;
+    border-radius: 100px;
+    border: 1px solid #5aa47c;
+    color: #5aa47c;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 27.25px;
+    cursor: pointer;
+    margin-top: 5px
+}
+
+.mypost .menu2 .mask {
+    width: 100%;
+    height: 1200px;
+    background: grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    opacity: .6
+}
+
+.mypost .menu2 .login-page {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 286px;
+    width: 427px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1000;
+    overflow: hidden
+}
+
+.mypost .menu2 .login-page .left {
+    width: 400px
+}
+
+.mypost .menu2 .login-page .left, .mypost .menu2 .login-page .right {
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    padding-left: 20px;
+    color: #000;
+    font-size: 15px
+}
+
+.mypost .menu2 .login-page .right {
+    float: right;
+    width: 30px;
+    cursor: pointer
+}
+
+.mypost .menu3 .left {
+    float: left;
+    width: 15%;
+    border: 1px solid #5aa47c;
+    border-top: none
+}
+
+.mypost .menu3 .left input {
+    width: 80%
+}
+
+.mypost .menu3 .left div {
+    text-align: center;
+    height: 10%;
+    line-height: 52px;
+    cursor: pointer;
+    border-top: 1px solid #5aa47c
+}
+
+.mypost .menu3 .left .active {
+    background-color: #5aa47c;
+    color: #fff
+}
+
+.mypost .menu3 .right {
+    float: right;
+    width: 82%;
+    background-color: #ffefd5;
+    padding: 10px
+}
+
+.mypost .menu3 .right .chatBox {
+    width: 40%;
+    position: relative;
+    margin-bottom: 10px
+}
+
+.mypost .menu3 .right .chatBox .user {
+    font-size: 16px;
+    padding: 5px 10px
+}
+
+.mypost .menu3 .right .chatBox .message {
+    word-break: break-all;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px
+}
+
+.mypost .menu3 .right .my {
+    left: 60%
+}
+
+.mypost .menu3 .right .my .message {
+    background-color: #95ec69;
+    border: 1px solid #e9e9e9
+}
+
+.mypost .menu3 .right .notMy .message {
+    background-color: #fff;
+    border: 1px solid #e9e9e9
+}
+
+.mypost .menu3 .right .pageBtnChat {
+    position: absolute;
+    bottom: 50px;
+    right: 0
+}
+
+.mypost .menu3 .right .reply {
+    height: 50px;
+    line-height: 50px;
+    margin-top: 50px
+}
+
+.mypost .menu3 .right .reply textarea {
+    height: 44px;
+    width: 90%;
+    border: 1px solid #e9e9e9;
+    outline: none;
+    font-size: 16px;
+    line-height: 22px
+}
+
+.mypost .menu3 .right .reply span {
+    display: inline-block;
+    width: calc(10% - 6px);
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    background-color: #95ec69;
+    cursor: pointer
+}
+
+.mypost .menu3 .sendNewByName, .mypost .menu3 .useless {
+    float: right;
+    width: 82%;
+    padding: 10px
+}
+
+.mypost .menu3 .sendNewByName input {
+    display: block;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    outline: none
+}
+
+.mypost .menu3 .sendNewByName textarea {
+    display: block;
+    height: 150px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 100%;
+    outline: none
+}
+
+.mypost .menu3 .sendNewByName div {
+    float: right;
+    background-color: #5aa47c;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer
+}
+
+.mypost .menu4 .row1 {
+    border-bottom: 1px solid #e9e9e9
+}
+
+.mypost .menu4 .row1 span {
+    padding: 10px 15px;
+    display: inline-block;
+    cursor: pointer
+}
+
+.mypost .menu4 .row1 .active {
+    border-bottom: 2px solid #5aa47c
+}
+
+.mypost .menu4 .row2 {
+    font-size: 14px
+}
+
+.mypost .menu4 .row2 > div {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 8px 0
+}
+
+.mypost .menu4 .row2 .left {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 70%
+}
+
+.mypost .menu4 .row2 .left > div {
+    float: left
+}
+
+.mypost .menu4 .row2 .left div {
+    margin-right: 15px
+}
+
+.mypost .menu4 .row2 .left .title {
+    width: 75%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.mypost .menu4 .row2 .left .title:hover {
+    color: #3676fe;
+    cursor: pointer
+}
+
+.mypost .menu4 .row2 .right {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    width: 30%
+}
+
+.mypost .menu4 .row2 .right > div {
+    float: right;
+    margin-left: 15px
+}
+
+.mypost .menu4 .row2 .right > div > div {
+    float: left;
+    width: 30px;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.mypost .menu4 .row2 .right span {
+    color: #6d6d6d;
+    margin-left: 15px
+}
+
+.mypost .menu4 .time {
+    float: right;
+    color: #a8a8a8
+}
+

@@ -1,0 +1,53 @@
+.detail .content > .right {
+    width: calc(35% - 20px
+    );
+    float: right;
+}
+
+.detail .content > .right > div {
+    margin-top: 20px;
+}
+
+.adv, .relatedpost {
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.relatedpost {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.detail .content > .right > div {
+    margin-top: 20px;
+}
+
+.detail .content > .right > div {
+    margin-top: 20px;
+}
+
+.blogroll {
+    background-color: #fff;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.blogroll .friendlink {
+    border-bottom: 1px dashed #e9e9e9;
+}
+
+.blogroll .daimaku, .blogroll .friendlink {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.blogroll .daimaku span {
+    margin-right: 20px;
+}
+
+.blogroll .daimaku .active {
+    color: #5ca7e5;
+}

@@ -1,0 +1,70 @@
+.pageBtn {
+    padding: 20px;
+    background-color: #fff;
+    text-align: right
+}
+
+.pageBtn > div {
+    float: right;
+    height: 34px;
+    line-height: 34px
+}
+
+.pageBtn span {
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    color: #000;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #c3c4c7;
+    margin: 0 5px
+}
+
+.pageBtn span:hover {
+    color: #5aa47c;
+    border-color: #5aa47c
+}
+
+.pageBtn .dead {
+    background-color: #f8f8f8;
+    color: #c3c4c7
+}
+
+.pageBtn .dead:hover {
+    color: #c3c4c7;
+    border-color: #c3c4c7;
+    cursor: default
+}
+
+.pageBtn .active {
+    color: #fff;
+    border-color: #5aa47c;
+    background-color: #5aa47c
+}
+
+.pageBtn .active:hover {
+    color: #fff
+}
+
+.pageBtn select {
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px
+}
+
+.pageBtn input, .pageBtn select {
+    border: 1px solid #c3c4c7;
+    background-color: #fff;
+    outline: none
+}
+
+.pageBtn input {
+    height: 28px;
+    line-height: 28px;
+    padding-left: 5px;
+    width: 50px;
+    position: relative;
+    bottom: 1px
+}

@@ -1,0 +1,64 @@
+
+.nav {
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    background-color: #fff
+}
+
+.nav .nav2 {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.nav .nav2 ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 15px
+}
+
+.nav .nav2 ul li {
+    float: left;
+    list-style: none;
+    margin: 0 40px 0 10px;
+    cursor: pointer
+}
+
+.nav .nav2 .active {
+    color: #5aa47c
+}
+
+.nav .nav2 div {
+    float: right;
+    height: 50px
+}
+
+.nav .nav2 div .post {
+    cursor: pointer;
+    margin: 5px 0 0 30px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #4b9387
+}
+
+.nav .nav2 div .magnifier img {
+    padding-top: 15px;
+    width: 20px;
+    cursor: pointer
+}
+
+.nav .nav2 div .magnifier input {
+    height: 24px;
+    position: relative;
+    bottom: 6px;
+    margin-right: 20px;
+    border: none;
+    border-bottom: 1px solid #c3c4c7;
+    outline: none;
+    width: 130px
+}

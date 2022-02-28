@@ -1,0 +1,15 @@
+
+.mypage .content {
+    width: 1200px;
+    margin: 20px auto 0
+}
+
+.mypage .content > .left {
+    width: 18%;
+    float: left
+}
+
+.mypage .content > .right {
+    width: calc(82% - 20px);
+    float: right
+}
